@@ -1,0 +1,17 @@
+{
+	"name": "DESTINATION",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "BLOBSTORAGE",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "raw"
+			}
+		}
+	}
+}
